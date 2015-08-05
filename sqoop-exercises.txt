@@ -5,7 +5,7 @@ wget https://github.com/Jazznight/hadoop_importer/raw/master/sqoop/Yelp_ALL.zip
 unzip Yelp_ALL.zip
 
 //Create yelp database in mysql
-mysql -uroot -p -e "CREATE DATABASE yelp"
+mysql -uroot -p -e "CREATE DATABASE yelp"     #在外面執行即可，不用登入mysql執行
 
 //Examine databases
 mysql -uroot -p -e "SHOW DATABASES"
